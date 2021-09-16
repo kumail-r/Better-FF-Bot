@@ -20,6 +20,7 @@ console.log(process.env.BETTER_FF_BOT_TOKEN);
 
 client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag}!`);
+    client.user.setActivity('your mom', { type: "WATCHING" });
 });
 
 client.on('messageCreate', (message) =>{
