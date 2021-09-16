@@ -6,12 +6,12 @@ Currently implemented functionality:
 - Display user lodestone data
 - Display marketboard data using Universalis API
 - Ping
+- Weekly fashion report
 
 Planned Features (not in order):
 - Reaction roles
 - have custom output for the player information sheet (perhaps something like Kupo Bot's implementation)
 - FFLogs integration (simple commands to do different things - perhaps one to check if user has cleared current tier, and if so by how much and at what percentiles)
-- Weekly Fashion Report
 - Retrieve portrait, retrieve thumbnail
 - Minigames
 - Timers/reminders for in game and custom announcements
