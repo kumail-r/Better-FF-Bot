@@ -1,6 +1,6 @@
 # Better-FF-Bot
 
-A tightly focused FFXIV centered Discord bot that only has funcionality that I deem to be important and is not bloated like many popular FFXIV Discord bots that have so many commands that they are overwhelming to use for most users.
+A tightly focused FFXIV centered Discord bot that only has funcionality that I deem to be important and is not bloated like many popular FFXIV Discord bots that have so many commands that they are overwhelming to use for many users. Designed originally for personal use however you may use the source code however you want if you are interested.
 
 Currently implemented functionality:
 - Display user lodestone data
