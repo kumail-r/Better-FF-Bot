@@ -15,12 +15,12 @@ module.exports = new Command({
             console.log("used old fr value");
             return message.reply({ embeds: [frEmbed] });
         }
-        console("updating fr: ");
+        console.log("updating fr: ");
         axios.get('https://www.reddit.com/user/kaiyoko/submitted.json')
         .then((response) => {
             for (let i = 0; i < 25; i++){
                 var current = response.data['data']['children'][i]['data'];
-                console.log(current)
+                //console.log(current)
                 if (current['title'].indexOf("Fashion Report - Full Details - For Week") !== -1){
                     if (current['created_utc'] === lastPosted){
                         console.log("couldn't find newer post to update to");
