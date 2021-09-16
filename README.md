@@ -8,6 +8,7 @@ Currently implemented functionality:
 - Display marketboard data using Universalis API
 - Ping
 - Weekly fashion report
+- Custom timers
 
 Planned Features (not in order):
 
@@ -16,5 +17,5 @@ Planned Features (not in order):
 - FFLogs integration (simple commands to do different things - perhaps one to check if user has cleared current tier, and if so by how much and at what percentiles)
 - Retrieve portrait, retrieve thumbnail
 - Minigames
-- Timers/reminders for in game and custom announcements
+- Timers/reminders for in game announcements
 - Polling
