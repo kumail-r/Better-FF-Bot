@@ -25,7 +25,7 @@ module.exports = new Command({
             }
         }
 
-        message.reply(`Okay, I will remind you to ${reminderMessage} in ${ms(ms(timer), {long:true})}.`);
+        message.reply(`Okay, I will remind you in ${ms(ms(timer), {long:true})}.`);
         setTimeout(function(){
             if (message.deleted) return message.channel.send(`<@${message.author.id}>, here's your timer message:\n` + reminderMessage);
             message.reply("Timer: " + reminderMessage);
